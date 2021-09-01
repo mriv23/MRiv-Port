@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #FC5C65;
+    --secondary-color: #383B43;
+    --third-color: #d4d7dd;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Permanent Marker', cursive;
+    background-image: url("img/media.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-list li {
+    margin-left: 5rem;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.header-list li:nth-child(3) {
+    margin-right: 3rem;
+}
+
+.header-list li a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.header-list li a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--main-color);
+}
+
+.main {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.principal {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+   
+    margin-bottom:20px;
+}
+
+.principal h1 {
+    font-weight: bold;
+    font-size: 10rem;
+    color: var(--main-color);
+    margin-top: 100px;
+}
+
+ h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--main-color);
+    
+}
+
+.principal p {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+
+
+.conoceme {
+    height:60%;
+    min-height: 400px;
+}
+.conoceme-title{
+    margin-bottom: 35px;
+}
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+   
+    
+}
+.cards div{
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    opacity: .7;
+    padding: 5px;
+}
+.cards h3{
+    color: var(--third-color);
+    font-size:2rem;
+    
+}
+.card-conocimientos{
+    width: 30%;
+    min-height: 500px;
+    margin-left: 1%;
+    
+   }
+
+.card-conocimientos ul{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-conocimientos li{
+    color:var(--third-color);
+    font-size: 2rem;
+    margin-bottom: 5px;
+   
+    
+}
+.card-conocimientos i{
+    color: var(--main-color);
+    font-size: 3rem;
+}
+.card-actualmente{
+    width: 30%;
+    min-height: 500px;
+    margin: 0 4%;
+}
+.card-actualmente:hover{
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: var(--main-color);
+    
+}
+.card-actualmente p{
+    color:var(--third-color);
+    font-size: 1.5rem;
+   text-align: left;
+    
+}
+.card-actualmente i{
+    color: var(--main-color);
+}
+.card-futuro{
+    width: 30%;
+    min-height: 500px;
+}
+.card-futuro p{
+    color:var(--third-color);
+    font-size: 1.5rem;
+   text-align: left;
+}
+.card-futuro i{
+    color: var(--main-color);
+}
+.footer{
+    text-align: center;
+}
+
